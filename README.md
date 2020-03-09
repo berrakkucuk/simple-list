@@ -1,2 +1,2 @@
 # simple-list
-Adding items to a list made by using Express.js
+Adding items to a list, using Express.js
