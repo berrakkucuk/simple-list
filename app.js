@@ -17,9 +17,8 @@ app.post("/addfriend", function(req,res){
     var newFriend = req.body.newfriend;
     friends.push(newFriend);
     console.log(req.body.newfriend);
-    res.send("It is working!");
-    //res.redirect("/friends")
-
+    //res.send("It is working!");
+    res.redirect("/friends")
     //friends.push(newFriend);
 });
 
@@ -39,4 +38,3 @@ app.get("/friends", function(req,res){
 app.listen(3000, function(){
     console.log("Server has started.");
 });
-
